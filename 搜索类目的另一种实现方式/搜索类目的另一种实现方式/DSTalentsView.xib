@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DSTalentsView">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="208"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Yai-S2-cHV">
+                    <rect key="frame" x="17" y="28" width="55" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="9LR-BT-SCp"/>
+                        <constraint firstAttribute="width" constant="55" id="NHa-sZ-hlj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高级UI设计师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evk-tu-BQQ">
+                    <rect key="frame" x="89" y="28" width="90" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阿里巴巴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCu-mu-kj6">
+                    <rect key="frame" x="89" y="48" width="44" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广州 3-5年 本科" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiI-Be-v3p">
+                    <rect key="frame" x="89" y="63" width="88" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09月21日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yG0-YZ-zYh">
+                    <rect key="frame" x="327" y="28" width="48" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12-18k" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASO-DK-9SQ">
+                    <rect key="frame" x="339" y="55" width="36" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Yai-S2-cHV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="28" id="8ja-Bg-rV2"/>
+                <constraint firstItem="Yai-S2-cHV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="IFB-VJ-xYC"/>
+                <constraint firstItem="TCu-mu-kj6" firstAttribute="top" secondItem="evk-tu-BQQ" secondAttribute="bottom" constant="2" id="QhO-Ig-VxQ"/>
+                <constraint firstItem="EiI-Be-v3p" firstAttribute="bottom" secondItem="Yai-S2-cHV" secondAttribute="bottom" id="h0b-cW-jKn"/>
+                <constraint firstItem="EiI-Be-v3p" firstAttribute="leading" secondItem="TCu-mu-kj6" secondAttribute="leading" id="kCC-sg-CVT"/>
+                <constraint firstAttribute="trailing" secondItem="yG0-YZ-zYh" secondAttribute="trailing" constant="17" id="kuY-CB-7Qz"/>
+                <constraint firstItem="evk-tu-BQQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="28" id="o77-yQ-p2c"/>
+                <constraint firstItem="TCu-mu-kj6" firstAttribute="leading" secondItem="evk-tu-BQQ" secondAttribute="leading" id="pJa-0b-Zad"/>
+                <constraint firstItem="yG0-YZ-zYh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="28" id="qze-nx-mNt"/>
+                <constraint firstAttribute="trailing" secondItem="ASO-DK-9SQ" secondAttribute="trailing" constant="17" id="wTw-dM-l2L"/>
+                <constraint firstItem="ASO-DK-9SQ" firstAttribute="top" secondItem="yG0-YZ-zYh" secondAttribute="bottom" constant="13" id="wuI-zC-njy"/>
+                <constraint firstItem="evk-tu-BQQ" firstAttribute="leading" secondItem="Yai-S2-cHV" secondAttribute="trailing" constant="17" id="zdt-SA-5mX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="moneyLabel" destination="ASO-DK-9SQ" id="vHx-fq-yyE"/>
+                <outlet property="monthLabel" destination="yG0-YZ-zYh" id="JxY-CH-G7X"/>
+                <outlet property="personConpanyLabel" destination="TCu-mu-kj6" id="5gW-2b-j4D"/>
+                <outlet property="personLocAndEduLabel" destination="EiI-Be-v3p" id="vUi-9m-74G"/>
+                <outlet property="personNameLabel" destination="evk-tu-BQQ" id="U8I-in-ltv"/>
+            </connections>
+            <point key="canvasLocation" x="83" y="-237"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="1600" height="900"/>
+    </resources>
+</document>
